@@ -8,7 +8,8 @@
     "cypress:open:qa": "cypress open --env environment=qa",
     "cypress:open:regression:qa": "cypress open --env environment=qa,tags='@Regression'",
     "cypress:run:headless:regression:qa": "cypress run --browser=chrome --env environment=qa,tags='@Regression'",
-    "cypress:run:headless:qa": "cypress run --browser=chrome --env environment=qa"
+    "cypress:run:headless:qa": "cypress run --browser=chrome --env environment=qa",
+    "cypress:run:dashboard:qa": "cypress run --env environment=qa --record --key 0886352c-1148-469a-a823-1aa55995bd59"
   },
   "cypress-cucumber-preprocessor": {
     "json": {
@@ -25,7 +26,8 @@
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
-    "cypress": "^12.7.0",
+    "cypress": "^12.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "multiple-cucumber-html-reporter": "^3.3.0"
   }
 }

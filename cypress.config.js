@@ -3,6 +3,7 @@ const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const browserify = require("@badeball/cypress-cucumber-preprocessor/browserify");
 
 module.exports = defineConfig({
+  projectId: '7mvsuz',
   e2e: {
     async setupNodeEvents(on, config) {
       // implement node event listeners here

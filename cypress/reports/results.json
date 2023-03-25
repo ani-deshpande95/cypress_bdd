@@ -1,0 +1,296 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-the-ecommerce-website-using-bdd;verify-user-is-able-to-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify user is able to login",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User visit the ecommerce site",
+            "result": {
+              "duration": 2351000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters the username and password",
+            "result": {
+              "duration": 3110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should navigate to user page",
+            "result": {
+              "duration": 2491000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "to-test-the-ecommerce-website-using-bdd;verify-user-is-able-to-add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user is able to add item to cart",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User visit the ecommerce site",
+            "result": {
+              "duration": 356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 13,
+            "name": "User click on product name",
+            "result": {
+              "duration": 2976000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "User click on add to cart button",
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Product should be visible on cart page",
+            "result": {
+              "duration": 3054000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "to-test-the-ecommerce-website-using-bdd;to-demo-the-datatable-usage-in-bdd;;2",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "to demo the datatable usage in bdd",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User visit the ecommerce site",
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 20,
+            "name": "User click on contacts link",
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 21,
+            "name": "User enters the email ID and name",
+            "result": {
+              "duration": 2492000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "\u003cemail\u003e"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "\u003cname\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user click on send message button",
+            "result": {
+              "duration": 701000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "to-test-the-ecommerce-website-using-bdd;to-demo-the-datatable-usage-in-bdd;;3",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "to demo the datatable usage in bdd",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User visit the ecommerce site",
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 20,
+            "name": "User click on contacts link",
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 21,
+            "name": "User enters the email ID and name",
+            "result": {
+              "duration": 2539000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "\u003cemail\u003e"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "\u003cname\u003e"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user click on send message button",
+            "result": {
+              "duration": 998000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "id": "to-test-the-ecommerce-website-using-bdd",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To test the ecommerce website using BDD",
+    "uri": "cypress/integration/bdd_example/ecommerce.feature"
+  }
+]
