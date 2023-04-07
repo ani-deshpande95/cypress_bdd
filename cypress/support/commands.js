@@ -12,7 +12,7 @@
 Cypress.Commands.add("login", (email, password) => {});
 
 // wait command
-Cypress.Commands.add("wait", (timeout) => {
+Cypress.Commands.add("sleep", (timeout) => {
   cy.wait(timeout);
 });
 
